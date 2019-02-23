@@ -5,7 +5,7 @@
   - [option](./vimium-options.json)
 - Momentum
 - Dark Reader  
-  - `Toggle current site : Ctrl+Shift+D`
+  - Toggle current site toggle hotkey : `Ctrl+Shift+D`
 
 - Hover Zoom+
 - Fatkun Batch Download Image
