@@ -1,2 +1,2 @@
 # suyference
-preferences, settings, conventions for suy
+preferences, settings, configurations, conventions for suy
