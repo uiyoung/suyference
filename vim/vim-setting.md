@@ -8,8 +8,14 @@ $ vi ~/.vimrc
 
 [.vimrc](./vimrc)
 
-## [Vundle](https://github.com/VundleVim/Vundle.vim)
-Vundle은 vim plugin들을 관리 할 수 있는 플러그인이다. Vundle을 이용하여 vim 내에서 플러그인 검색, 설치, 업데이트, 삭제 등의 작업이 가능하도록 해준다.
+### .vimrc를 생성해주는 사이트
+[Vim Bootstrap](http://www.vim-bootstrap.com/)
+[installation](https://github.com/avelino/vim-bootstrap#installation)
+
+---
+
+## Vundle
+[Vundle](https://github.com/VundleVim/Vundle.vim)은 vim plugin을 관리 할 수 있는 플러그인이다. Vundle을 이용하여 vim 내에서 플러그인 검색, 설치, 업데이트, 삭제 등의 작업이 가능하도록 해준다.
 
 1. Set up Vundle
 ```bash
@@ -38,13 +44,13 @@ filetype plugin indent on    " required
 ```
 
 3. plugin 설치
-위의 `call vundle#begin()`과 `call vundle#end()`사이에 설치 할 플러그인을 추가하고 vim 명령모드에서 :PluginInstall을 입력하면 설정파일에 추가한 플러그인을 설치한다. 
+위의 `call vundle#begin()`과 `call vundle#end()`사이에 설치 할 플러그인을 추가하고 vim 명령모드에서 `:PluginInstall`을 입력하면 설정파일에 추가한 플러그인을 설치한다. 
 
 ## 설치할 플러그인
 [VimAwesome](https://vimawesome.com/)에 플러그인 정보를 찾아 볼 수 있다.
 
 ### [The NERD Tree](https://github.com/scrooloose/nerdtree)
-- :NERDTree라고 입력하면 좌측에 TreeView가 표시된다.
+- `:NERDTree`라고 입력하면 좌측에 TreeView가 표시된다.
 - 명령어 입력이 번거러우므로 단축키 설정을 한다
 
 
