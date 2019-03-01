@@ -36,7 +36,7 @@ ZSH_THEME="agnoster"
 2. install Powerline Font
 ```bash
 # clone
-git clone https://github.com/powerline/fonts.git
+$ git clone https://github.com/powerline/fonts.git
 # install font
 $ cd fonts
 $ ./install.sh
@@ -51,5 +51,5 @@ edit-preferences-Text-Custom font에서 powerline font 선택
 4. shell에서 pc이름 숨기기
 ```bash
 vi .zshrc
-`prompt_context(){}` 추가
+prompt_context(){} 추가
 ```
