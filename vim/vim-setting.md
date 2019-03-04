@@ -23,7 +23,7 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 2. Configure Plugins
-다음을 `.vimrc'의 맨위에 적는다
+다음을 `.vimrc`의 맨위에 적는다
 ```vim
 set nocompatible              " be iMproved, required
 filetype off                  " required
