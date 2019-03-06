@@ -1,48 +1,103 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+"*****************************************************************************
+"" Basic Setup
+"*****************************************************************************"
+"" Encoding
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
+set bomb
+set binary
+set ttyfast
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"" Fix backspace indent
+set backspace=eol,start,indent
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"" Tabs. May be overriten by autocmd rules
+set tabstop=4
+set softtabstop=0
+set shiftwidth=4
+set expandtab
 
-Plugin 'The-NERD-tree'
-Plugin 'vim-airline/vim-airline'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'dracula/vim'
+"" Map leader to ,
+let mapleader=','
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+"" Enable hidden buffers
+set hidden
 
+"" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
 
-
-set number
+"*****************************************************************************
+"" Visual Settings
+"*****************************************************************************
+syntax on
 set ruler
+set number
+
+"" Disable the blinking cursor.
+set gcr=a:blinkon0
+set scrolloff=3
+
+"" Status bar
+set laststatus=2
+
+"" Use modeline overrides
+set modeline
+set modelines=10
+
+set title
+set titleold="Terminal"
+set titlestring=%F
+
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
+
+" Search mappings: These will make it so that going to the next one in a
+" search will center on the line it's found in.
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+"*****************************************************************************
+"" Abbreviations
+"*****************************************************************************
+"" no one is really happy until you have this shortcuts
+cnoreabbrev W! w!
+cnoreabbrev Q! q!
+cnoreabbrev Qall! qall!
+cnoreabbrev Wq wq
+cnoreabbrev Wa wa
+cnoreabbrev wQ wq
+cnoreabbrev WQ wq
+cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev Qall qall
+
+"*****************************************************************************
+"" Custom configs
+"*****************************************************************************
+
+" c
+autocmd FileType c setlocal tabstop=4 shiftwidth=4 expandtab
+autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
+
+
+"*****************************************************************************
+"*****************************************************************************
+
+
 
 set autoindent
 set cindent
 set smartindent
 
-set showmatch
-set hlsearch
-set ignorecase
-
 set background=dark
 set history=1000
 
-set expandtab
-set tabstop=4
-set ts=4
-set shiftwidth=4
-set title
 
 set cursorline
 "set laststatus=2
 
-set backspace=eol,start,indent
 
-syntax on
 syntax enable
