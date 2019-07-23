@@ -1,17 +1,19 @@
 {
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "D2Coding ligature, Consolas, 'Courier New', monospace",
-    "C_Cpp.updateChannel": "Insiders",
-    "[html]": {
-        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-    },
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
-    "vim.easymotion": true,
-    "vim.handleKeys": {
-        "<C-v>": false,
-        "<C-c>": false,
-        "<C-w>": false,
-        "<C-f>": false
-    }
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "D2Coding ligature, Consolas, 'Courier New', monospace",
+  "C_Cpp.updateChannel": "Insiders",
+  "[html]": {
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "vim.easymotion": true,
+  "vim.handleKeys": {
+    "<C-v>": false,
+    "<C-c>": false,
+    "<C-w>": false,
+    "<C-f>": false,
+    "<C-a>": false
+  },
+  "workbench.colorTheme": "Material Theme"
 }
