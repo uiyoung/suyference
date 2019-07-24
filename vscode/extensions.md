@@ -17,3 +17,4 @@
 - JS-CSS-HTML Formatter
 - IntelliSense for CSS class names in HTML
 - ESLint
+- open in browser(alt+b 누르면 브라우저에서 열린다)
