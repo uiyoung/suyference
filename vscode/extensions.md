@@ -14,7 +14,6 @@
 
 ## for Web dev
 
-- HTML Snippets
 - JS-CSS-HTML Formatter
 - IntelliSense for CSS class names in HTML
 - ESLint
