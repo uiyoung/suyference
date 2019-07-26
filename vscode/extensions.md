@@ -4,7 +4,7 @@
 
 - VSCodeVim
   - settings.json에서 vim.handleKeys 설정
-  - enable easymotion(사용법:\\w)
+  - enable easymotion(사용법:\\\\w)
 - TabOut
 - Material Theme
 
