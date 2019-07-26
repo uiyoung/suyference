@@ -3,7 +3,8 @@
 ## common
 
 - VSCodeVim
-  - settings.json에서 vim.handleKeys 설정
+  - VSCode에서 쓰고있는 단축키와 중복되는 단축키 Keyboard Shortcuts에서 검색하여 Remove Keybinding
+  `ex) ctrl+c,x,v,d,delete ...`
   - enable easymotion(사용법:\\\\w)
 - TabOut
 - Material Theme
