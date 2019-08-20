@@ -9,4 +9,12 @@
   ![image](./img/vscode-selection.png)
 
 - Change All Occurrences
-  - ctrl+F2를 누르면 같은 이름의 변수가 전부 한번에 선택된다.
+  - `ctrl+F2`를 누르면 같은 이름의 변수가 전부 한번에 선택된다.
+
+- Go to FIle
+  - `ctrl + p`
+
+- View Terminal
+  - ctrl + `
+  - new Terminal : ctrl+shift+`
+  
