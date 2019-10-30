@@ -2,10 +2,11 @@
 
 ## common
 
-- VSCodeVim
-  - VSCode에서 쓰고있는 단축키와 중복되는 단축키 Keyboard Shortcuts에서 검색하여 Remove Keybinding
-  - ![img](../img/vscode-vim-remove-keybinding.png)
-  - enable easymotion(사용법:\\\\w)
+- ~~VSCodeVim~~
+  - ~~VSCode에서 쓰고있는 단축키와 중복되는 단축키 Keyboard Shortcuts에서 검색하여 Remove Keybinding~~
+  - ~~![img](../img/vscode-vim-remove-keybinding.png)~~
+  - ~~enable easymotion(사용법:\\\\w)~~
+- [Simple Vim](https://marketplace.visualstudio.com/items?itemName=jpotterm.simple-vim)
 - TabOut
 - Material Theme
 
