@@ -6,10 +6,10 @@ ex)`unity.lnk` 바로가기를 `C:\Users\{유저명}`에 넣어두면 `Windows K
 
 
 ## commands
-- shutdown -s : shutdown
-- shutdown -r : restart
-- taskmgr : Task Manager
-- control : Control Panel
+- Shutdown : shutdown -s 
+- Restart : shutdown -r 
+- Task Manager: taskmgr
+- Control Panel : control
 - notepad
 - mspaint
 - calc
