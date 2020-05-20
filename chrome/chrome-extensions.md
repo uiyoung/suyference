@@ -12,7 +12,7 @@
 
 - Momentum
 - Hover Zoom+
-- Fatkun Batch Download Image
+- [Image Downloader](https://chrome.google.com/webstore/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj)
 - Make Google Image Great Again
 - Picture-in-Picture Extenstion
 
