@@ -1,11 +1,6 @@
 # VIM cheatsheet
 
-### vim 줄번호 없애기
-```bash
-:se nonu
-```
 
-### vim copy all
 
 ### word movement
 - `w` : move to the start of next word 
@@ -16,9 +11,16 @@
 - `0` : to reach beginning of a line
 - `$` : reach end of a line 
 
+### tabs
+- `g` `t` : Next tab
+- `g` `T` : Prior tab 
+- `nnn` `g` `t`: Numbered tab 
+
 ### insert text repeatly
 - `30` `i` `-` `esc` : ------------------------------
 - `3` `i` `go` `esc` : gogogo 
+
+
 
 ### find character
 - `f{char}`
@@ -37,15 +39,22 @@
 - `G` : to the end of the file 
 - `3` `G`: to the 3rd line
 
-### 들여쓰기
+### shifting blocks
 - `>>`
 - `<<`
 
 ### 삭제
 - `x` : 커서 위치의 글자 삭제
+- `dd` : 한줄 삭제
 
 ### comment
-1. visual mode에서 블럭 설정
+1. `visual mode에서 블럭 설정
 2. `:`를 누르고 `norm i//`
 3. 주석 해제시에는 `norm 2x`
 
+
+
+### vim 줄번호 없애기
+```bash
+:se nonu
+```
