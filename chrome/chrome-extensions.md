@@ -25,3 +25,5 @@
 - Ghostery
 - Evernote Web Clipper
 - 네이버 영어사전
+
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc/related)
