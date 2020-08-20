@@ -30,28 +30,32 @@
     "list": [
       {
         "guid": "{00000000-0000-0000-ba54-000000000002}",
-        "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
-        "cursorColor": "#FFFFFF",
         "name": "Git Bash",
-        "cursorShape": "bar",
-        "fontFace": "Consolas",
-        "fontSize": 11,
-        "historySize": 9001,
+        "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
         "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
-        "padding": "0, 0, 0, 0",
-        "snapOnInput": true,
+        "historySize": 9001,
         "startingDirectory": "%USERPROFILE%",
+        "fontSize": 10,
         "colorScheme": "One Half Dark",
         "closeOnExit": true,
         "useAcrylic": true,
         "acrylicOpacity": 0.5
       },
       {
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Windows.Terminal.Wsl",
+        "colorScheme": "Solarized Dark",
+        "fontFace": "Meslo LG S for Powerline",
+        "fontSize": 10
+      },
+      {
         // Make changes here to the powershell.exe profile.
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "name": "Windows PowerShell",
         "commandline": "powershell.exe",
-        "colorScheme": "Campbell Powershell",
+        "colorScheme": "One Half Dark",
         "hidden": false
       },
       {
@@ -96,6 +100,7 @@
       "keys": "alt+shift+d"
     },
 
-    { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+t" }
+    { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+t" },
+    { "command": "closeTab", "keys": "ctrl+w" }
   ]
 }
