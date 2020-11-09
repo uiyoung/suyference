@@ -12,6 +12,7 @@ e.g. `unity.lnk` 바로가기를 `C:\Users\{유저명}`에 넣어두면 `Windows
 - ps
 - kakao
 - evernote
+- notion
 
 ## commands
 - Shutdown : shutdown -s 
