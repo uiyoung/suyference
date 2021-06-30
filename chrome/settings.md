@@ -1,5 +1,5 @@
  ### Add Custom Search Engines
- `Settings-Manage Search Engines-Add`
+ `Settings-Search Engines - Manage Search Engines-Add`
   - Naver
     - keyword : nav
     - URL : https://search.naver.com/search.naver?ie=UTF-8&query=%s
