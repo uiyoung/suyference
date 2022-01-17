@@ -6,6 +6,7 @@
 
 
 - crxMouse Chrome™ 제스처
+- [Drag-Free](https://chrome.google.com/webstore/detail/drag-freemouse-drag-mouse/cnfngpgfjllafbghaimjcmailafcdhod)
 - Dark Reader  
   - Toggle current site toggle hotkey : `Ctrl+Shift+D`
 
