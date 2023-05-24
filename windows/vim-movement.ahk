@@ -1,4 +1,5 @@
-;Shift(+), Alt(!), Ctrl(^)
+; install ahk and add this file in shell:startup
+; Shift(+), Alt(!), Ctrl(^)
 
 ALT::return
 *!j:: Send {Down}
