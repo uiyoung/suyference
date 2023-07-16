@@ -2,6 +2,7 @@
 ; Shift(+), Alt(!), Ctrl(^)
 
 ALT::return
+^[:: Send {Esc}
 *!j:: Send {Down}
 *!k:: Send {Up}
 *!h:: Send {Left}
