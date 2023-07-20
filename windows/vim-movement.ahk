@@ -1,29 +1,34 @@
-; install ahk and add this file in shell:startup
+; install ahk 1.1 and add this file in shell:startup
 ; Shift(+), Alt(!), Ctrl(^)
 
-;;;korean-english;;;
+;;; korean-english ;;;
 +Space:: 
 send, {vk15sc138} 
 return
 
 ALT::return
 ^[:: Send {Esc}
+
 *!j:: Send {Down}
 *!k:: Send {Up}
 *!h:: Send {Left}
 *!l:: Send {Right}
 
-*!u:: Send {Home}
-*!i:: Send {End}
+;*!u:: Send {Home}
+;*!i:: Send {End}
+
+*!0:: Send {Home}
+*!+4:: Send {End}
 ^!k:: Send {PgUp}
 ^!j:: Send {PgDn}
-;!p:: Send {PgUp}
-;!`;:: Send {PgDn}
 
+;;; ctrl+arrow ;;;
 ^!h:: Send ^{Left}
 ^!l:: Send ^{Right}
 +^!h:: Send ^+{Left}
 +^!l:: Send ^+{Right}
+
+;;; 블럭 ;;;
 +!j:: Send +{Down}
 +!k:: Send +{Up}
 +!u:: Send +{Home}
