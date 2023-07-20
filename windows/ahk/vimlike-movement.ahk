@@ -14,11 +14,8 @@ ALT::return
 *!h:: Send {Left}
 *!l:: Send {Right}
 
-;*!u:: Send {Home}
-;*!i:: Send {End}
-
-*!0:: Send {Home}
-*!+4:: Send {End}
+*!u:: Send {Home}
+*!i:: Send {End}
 ^!k:: Send {PgUp}
 ^!j:: Send {PgDn}
 
@@ -31,10 +28,9 @@ ALT::return
 ;;; 블럭 ;;;
 +!j:: Send +{Down}
 +!k:: Send +{Up}
-+!u:: Send +{Home}
-+!i:: Send +{End}
-
-+!p:: Send +{PgUp}
-+!`;:: Send +{PgDn}
 +!h:: Send +{Left}
 +!l:: Send +{Right}
++!u:: Send +{Home}
++!i:: Send +{End}
++!p:: Send +{PgUp}
++!`;:: Send +{PgDn}
