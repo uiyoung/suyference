@@ -21,7 +21,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap d\nunmap u\nmap u restoreTab\nunmap s\nunmap x\nmap dd removeTab\nmap <space>q",
+  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap d\nunmap u\nmap u restoreTab\nunmap s\nunmap x\nmap dd removeTab\nmap <space>q removeTab",
   "linkHintCharacters": "qwertasdfgzxcvb",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
