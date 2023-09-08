@@ -1,3 +1,22 @@
+"" keymap
+inoremap jj <Esc>
+inoremap jk <Esc>
+nnoremap ; :
+vnoremap ; :
+"nnoremap : ;
+"vnoremap : ;
+
+" navigate visual lines rather than logical ones
+nnoremap j gj
+nnoremap k gk
+nnoremap gj j
+nnoremap gk k
+nnoremap I g0i
+nnoremap A g$a
+
+" Y consistent with D and C to the end of line
+nnoremap Y y$
+
 "*****************************************************************************
 "" Basic Setup
 "*****************************************************************************"
@@ -13,13 +32,22 @@ set ttyfast
 set backspace=eol,start,indent
 
 "" Tabs. May be overriten by autocmd rules
-set tabstop=4
+set tabstop=2
 set softtabstop=0
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
+set smarttab
 
-"" Map leader to ,
-let mapleader=','
+let mapleader="\<Space>"
+"map <leader>s <C-w>s
+"map <leader>v <C-w>v
+"map <leader>h <C-w>h
+"map <leader>j <C-w>j
+"map <leader>k <C-w>k
+"map <leader>l <C-w>l
+"map <leader>q <C-w>q
+
+set clipboard=unnamed
 
 "" Enable hidden buffers
 set hidden
@@ -35,7 +63,9 @@ set smartcase
 "*****************************************************************************
 syntax on
 set ruler
+set cursorline
 set number
+set showmatch
 
 "" Disable the blinking cursor.
 set gcr=a:blinkon0
@@ -43,16 +73,11 @@ set scrolloff=3
 
 "" Status bar
 set laststatus=2
-
-"" Use modeline overrides
-set modeline
-set modelines=10
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 
 set title
 set titleold="Terminal"
 set titlestring=%F
-
-set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 
 " Search mappings: These will make it so that going to the next one in a
 " search will center on the line it's found in.
@@ -74,20 +99,6 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
-"*****************************************************************************
-"" Custom configs
-"*****************************************************************************
-
-" c
-autocmd FileType c setlocal tabstop=4 shiftwidth=4 expandtab
-autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
-
-
-"*****************************************************************************
-"*****************************************************************************
-
-
-
 set autoindent
 set cindent
 set smartindent
@@ -96,8 +107,5 @@ set background=dark
 set history=1000
 
 
-set cursorline
-"set laststatus=2
-
-
 syntax enable
+
