@@ -84,10 +84,10 @@
         "ddirectcolor": "#778899",
         "ddirectopa": 0.9,
         "dholdkey": "none",
-        "dragimage": true,
+        "dragimage": false,
         "draginput": false,
-        "draglink": true,
-        "dragtext": true,
+        "draglink": false,
+        "dragtext": false,
         "dragui": false,
         "dstroke": false,
         "dstrokecolor": "#4E1485",
@@ -147,7 +147,7 @@
                 "direct": "U"
             }
         ],
-        "setdragurl": true,
+        "setdragurl": false,
         "text": [
             {
                 "action": "T_search",
