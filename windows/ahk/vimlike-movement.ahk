@@ -2,13 +2,14 @@
 ; Shift(+), Alt(!), Ctrl(^)
 
 ;;; korean-english ;;;
-+Space:: 
+^Space:: 
 send, {vk15sc138} 
 return
 
 ALT::return
 ^[:: Send {Esc}
 
+;;; arrow ;;;
 *!j:: Send {Down}
 *!k:: Send {Up}
 *!h:: Send {Left}
@@ -16,6 +17,8 @@ ALT::return
 
 *!u:: Send {Home}
 *!i:: Send {End}
+*!o:: Send ^{PgUp}
+*!p:: Send ^{PgDn}
 ^!k:: Send {PgUp}
 ^!j:: Send {PgDn}
 
@@ -25,7 +28,7 @@ ALT::return
 +^!h:: Send ^+{Left}
 +^!l:: Send ^+{Right}
 
-;;; 블럭 ;;;
+;;; block ;;;
 +!j:: Send +{Down}
 +!k:: Send +{Up}
 +!h:: Send +{Left}
