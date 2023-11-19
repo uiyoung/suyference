@@ -37,3 +37,15 @@ ALT::return
 +!i:: Send +{End}
 +!p:: Send +{PgUp}
 +!`;:: Send +{PgDn}
+
+;;; mac-like shortcut ;;;
+*!a:: send ^{a}
+*!s:: send ^{s}
+*!c:: send ^{c}
+*!x:: send ^{x}
+*!v:: send ^{v}
+*!z:: send ^{z}
+*!+z:: send ^!{x}
+*!w:: send ^{w}
+*!f:: send ^{f}
+*!t:: send ^{t}
