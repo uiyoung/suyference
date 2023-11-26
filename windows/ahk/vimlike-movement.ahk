@@ -49,3 +49,4 @@ ALT::return
 *!w:: send ^{w}
 *!f:: send ^{f}
 *!t:: send ^{t}
+*!n:: send ^{n}
