@@ -20,13 +20,11 @@ nnoremap Y y$
 "*****************************************************************************
 "" Basic Setup
 "*****************************************************************************"
+
 "" Encoding
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
-set bomb
-set binary
-set ttyfast
 
 "" Fix backspace indent
 set backspace=eol,start,indent
@@ -37,6 +35,9 @@ set softtabstop=0
 set shiftwidth=2
 set expandtab
 set smarttab
+
+set autoindent
+set cindent
 
 let mapleader="\<Space>"
 "map <leader>s <C-w>s
@@ -62,10 +63,13 @@ set smartcase
 "" Visual Settings
 "*****************************************************************************
 syntax on
+filetype plugin indent on
+
 set ruler
 set cursorline
 set number
 set showmatch
+set mouse=a
 
 "" Disable the blinking cursor.
 set gcr=a:blinkon0
@@ -78,6 +82,14 @@ set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 set title
 set titleold="Terminal"
 set titlestring=%F
+
+" --- wildmenu ---
+set wildmenu
+set wildmode=longest:full,full
+
+" --- undo / history ---
+set undofile
+set history=1000
 
 " Search mappings: These will make it so that going to the next one in a
 " search will center on the line it's found in.
@@ -99,13 +111,6 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
-set autoindent
-set cindent
-set smartindent
 
 set background=dark
-set history=1000
-
-
-syntax enable
 
