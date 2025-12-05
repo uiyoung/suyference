@@ -10,12 +10,11 @@
 5. 값 데이터 입력:
     - Scancode Map을 더블 클릭하여 아래 데이터를 입력
       ```
-      00 00 00 00 (Header)
-      00 00 00 00 (Null)
-      02 00 00 00 (변경할 키 쌍 개수 + 1)
-      1D 00 3A 00 (Ctrl(1D) -> CapsLock(3A)로 매핑)
-      3A 00 1D 00 (CapsLock(3A) -> Ctrl(1D)로 매핑)
-      00 00 00 00 (Null Terminator)
+      00 00 00 00
+      00 00 00 00
+      02 00 00 00
+      1D 00 3A 00
+      00 00 00 00
       ```
 <img width="470" alt="image" src="https://github.com/user-attachments/assets/660777e4-b770-40dc-a126-0318ac3dfae2" />
 
